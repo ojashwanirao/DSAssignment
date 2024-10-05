@@ -93,3 +93,22 @@ Understanding these complexities is crucial for optimizing performance in applic
 
 ## Space Complexity:
 - The space complexity of the stack is O(n) where n is the capacity of the stack, as we may need to store up to 'n' elements in the stack.
+
+# Algorithm analysis for  Array Queue
+## Time and Space Complexity Analysis
+
+1. Insertion (enqueue):
+Time Complexity: O(1) (Inserting at the rear using modular arithmetic to handle the circular nature)
+Space Complexity: O(1) for the operation, O(n) for the array storage
+
+2. Deletion (dequeue):
+Time Complexity: O(1) (Removing from the front using modular arithmetic)
+Space Complexity: O(1) for the operation, O(n) for the array storage
+
+3.Display:
+Time Complexity: O(n) (where n is the number of elements in the queue)
+Space Complexity: O(1) for the operation, O(n) for the array storage
+
+4.Exit:
+Time Complexity: O(1)
+Space Complexity: O(1)
